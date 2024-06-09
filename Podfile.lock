@@ -1,0 +1,36 @@
+PODS:
+  - MoEngage-iOS-SDK (9.17.3)
+  - MoEngageCards (4.16.0):
+    - MoEngage-iOS-SDK (< 9.18.0, >= 9.17.0)
+  - MoEngageInApp (6.00.2):
+    - MoEngage-iOS-SDK (< 9.18.0, >= 9.17.1)
+    - MoEngageTriggerEvaluator (< 1.02.0, >= 1.01.0)
+  - MoEngageRichNotification (7.16.0):
+    - MoEngage-iOS-SDK (< 9.18.0, >= 9.17.0)
+  - MoEngageTriggerEvaluator (1.01.0):
+    - MoEngage-iOS-SDK (< 9.18.0, >= 9.17.0)
+
+DEPENDENCIES:
+  - MoEngage-iOS-SDK
+  - MoEngageCards
+  - MoEngageInApp
+  - MoEngageRichNotification
+
+SPEC REPOS:
+  trunk:
+    - MoEngage-iOS-SDK
+    - MoEngageCards
+    - MoEngageInApp
+    - MoEngageRichNotification
+    - MoEngageTriggerEvaluator
+
+SPEC CHECKSUMS:
+  MoEngage-iOS-SDK: 0060d9364a54b292a0acad5c5fb5ffb3be3f0f87
+  MoEngageCards: 21b68034cbd6c95656c93c3a77f80c82f1edc64d
+  MoEngageInApp: f7634428232f9335f20c8c4ceb4102310e94a28e
+  MoEngageRichNotification: 44f27223ffcab56b8ccca6fefd094ca0d0f0a876
+  MoEngageTriggerEvaluator: 17437719da59df1f9a2447f2ed7889d4ee0f54ad
+
+PODFILE CHECKSUM: 53ad8c8d64921c1349d0c4dfc8499492a10def62
+
+COCOAPODS: 1.15.2
