@@ -1,0 +1,1212 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0530CCAA455D9EF9F86F0CAD /* Pods_tanujflow_tanujflowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E899CD2A269CE7BAE6CA25 /* Pods_tanujflow_tanujflowUITests.framework */; };
+		0A1C740456AB87F995353F52 /* Pods_InternsNotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951F6C37E58558830FA202CB /* Pods_InternsNotificationService.framework */; };
+		2D1A6DC72BFB877000791F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A6DC62BFB877000791F3A /* AppDelegate.swift */; };
+		2D1A6DC92BFB877000791F3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A6DC82BFB877000791F3A /* SceneDelegate.swift */; };
+		2D1A6DCB2BFB877000791F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A6DCA2BFB877000791F3A /* ViewController.swift */; };
+		2D1A6DCE2BFB877000791F3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2D1A6DCD2BFB877000791F3A /* Base */; };
+		2D1A6DD02BFB877300791F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1A6DCF2BFB877300791F3A /* Assets.xcassets */; };
+		2D1A6DD32BFB877300791F3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2D1A6DD22BFB877300791F3A /* Base */; };
+		2D1A6DDE2BFB877600791F3A /* tanujflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A6DDD2BFB877600791F3A /* tanujflowTests.swift */; };
+		2D1A6DE82BFB877600791F3A /* tanujflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A6DE72BFB877600791F3A /* tanujflowUITests.swift */; };
+		2D1A6DEA2BFB877600791F3A /* tanujflowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A6DE92BFB877600791F3A /* tanujflowUITestsLaunchTests.swift */; };
+		2D1A6DF72BFC5CDE00791F3A /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A6DF62BFC5CDE00791F3A /* DetailPageViewController.swift */; };
+		2D7197842BFC80DA00A110E6 /* PaymentSuccessfulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7197832BFC80DA00A110E6 /* PaymentSuccessfulViewController.swift */; };
+		2D7197862BFDC7DF00A110E6 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7197852BFDC7DF00A110E6 /* ViewController2.swift */; };
+		2D7197882BFDE94C00A110E6 /* CartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7197872BFDE94C00A110E6 /* CartPageViewController.swift */; };
+		2D78829A2C0F2593007281C3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7882992C0F2593007281C3 /* NotificationService.swift */; };
+		2D78829E2C0F2593007281C3 /* InternsNotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2D7882972C0F2593007281C3 /* InternsNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D7882A72C0F25D0007281C3 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D41519B2C05D9900047A402 /* UserNotifications.framework */; };
+		2D7882A82C0F25D0007281C3 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D41519D2C05D9900047A402 /* UserNotificationsUI.framework */; };
+		2D7882AB2C0F25D0007281C3 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7882AA2C0F25D0007281C3 /* NotificationViewController.swift */; };
+		2D7882AE2C0F25D0007281C3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2D7882AD2C0F25D0007281C3 /* Base */; };
+		2D7882B22C0F25D0007281C3 /* InternsNotificationContent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2D7882A62C0F25D0007281C3 /* InternsNotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3E4C504CA97497F98FF2EEAF /* Pods_tanujflow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2933C30483AAAC825E85C9 /* Pods_tanujflow.framework */; };
+		70447C0A4C6CD30A3D49FC3A /* Pods_InternsNotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576ADD1BBA6652B2E0C4B9B4 /* Pods_InternsNotificationContent.framework */; };
+		EC5496A6BD9A00AC5EB58FE1 /* Pods_tanujflowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FE15AF00E816390903E8A8 /* Pods_tanujflowTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D1A6DDA2BFB877600791F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1A6DBB2BFB877000791F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1A6DC22BFB877000791F3A;
+			remoteInfo = tanujflow;
+		};
+		2D1A6DE42BFB877600791F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1A6DBB2BFB877000791F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D1A6DC22BFB877000791F3A;
+			remoteInfo = tanujflow;
+		};
+		2D78829C2C0F2593007281C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1A6DBB2BFB877000791F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D7882962C0F2593007281C3;
+			remoteInfo = InternsNotificationService;
+		};
+		2D7882B02C0F25D0007281C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1A6DBB2BFB877000791F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D7882A52C0F25D0007281C3;
+			remoteInfo = InternsNotificationContent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D4151922C05D9620047A402 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2D7882B22C0F25D0007281C3 /* InternsNotificationContent.appex in Embed Foundation Extensions */,
+				2D78829E2C0F2593007281C3 /* InternsNotificationService.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0573952DA989D3863875B56C /* Pods-InternsNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternsNotificationContent.release.xcconfig"; path = "Target Support Files/Pods-InternsNotificationContent/Pods-InternsNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		0C8592B2617940DE1B58124D /* Pods-tanujflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tanujflow.debug.xcconfig"; path = "Target Support Files/Pods-tanujflow/Pods-tanujflow.debug.xcconfig"; sourceTree = "<group>"; };
+		0E4717518B73021C4638C8E7 /* Pods-tanujflowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tanujflowTests.debug.xcconfig"; path = "Target Support Files/Pods-tanujflowTests/Pods-tanujflowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FE1B6A364EE12FA6BE1A4D4 /* Pods_tanujflow_NotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tanujflow_NotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1A6DC32BFB877000791F3A /* tanujflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tanujflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1A6DC62BFB877000791F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D1A6DC82BFB877000791F3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D1A6DCA2BFB877000791F3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D1A6DCD2BFB877000791F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D1A6DCF2BFB877300791F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D1A6DD22BFB877300791F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D1A6DD42BFB877300791F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1A6DD92BFB877600791F3A /* tanujflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tanujflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1A6DDD2BFB877600791F3A /* tanujflowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanujflowTests.swift; sourceTree = "<group>"; };
+		2D1A6DE32BFB877600791F3A /* tanujflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tanujflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1A6DE72BFB877600791F3A /* tanujflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanujflowUITests.swift; sourceTree = "<group>"; };
+		2D1A6DE92BFB877600791F3A /* tanujflowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanujflowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D1A6DF62BFC5CDE00791F3A /* DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
+		2D41519B2C05D9900047A402 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		2D41519D2C05D9900047A402 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		2D7197832BFC80DA00A110E6 /* PaymentSuccessfulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSuccessfulViewController.swift; sourceTree = "<group>"; };
+		2D7197852BFDC7DF00A110E6 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		2D7197872BFDE94C00A110E6 /* CartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPageViewController.swift; sourceTree = "<group>"; };
+		2D7653762C06F84400B52538 /* tanujflow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tanujflow.entitlements; sourceTree = "<group>"; };
+		2D7882972C0F2593007281C3 /* InternsNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = InternsNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7882992C0F2593007281C3 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		2D78829B2C0F2593007281C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7882A62C0F25D0007281C3 /* InternsNotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = InternsNotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7882AA2C0F25D0007281C3 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		2D7882AD2C0F25D0007281C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2D7882AF2C0F25D0007281C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7882B62C0F2610007281C3 /* InternsNotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InternsNotificationService.entitlements; sourceTree = "<group>"; };
+		2D7882B72C0F265F007281C3 /* InternsNotificationContent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InternsNotificationContent.entitlements; sourceTree = "<group>"; };
+		47FE15AF00E816390903E8A8 /* Pods_tanujflowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tanujflowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		576ADD1BBA6652B2E0C4B9B4 /* Pods_InternsNotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternsNotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EB303CD876A904767E06AC /* Pods-tanujflow-NotificationContentExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tanujflow-NotificationContentExtension.debug.xcconfig"; path = "Target Support Files/Pods-tanujflow-NotificationContentExtension/Pods-tanujflow-NotificationContentExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA6F9AE3D063A78ACABC5B5 /* Pods_tanujflow_NotificationContentExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tanujflow_NotificationContentExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634688DF5AF8BCD5D9D5B8D8 /* Pods-InternsNotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternsNotificationService.release.xcconfig"; path = "Target Support Files/Pods-InternsNotificationService/Pods-InternsNotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		6B55F5CA4FEAAB224247EAC1 /* Pods-tanujflow-tanujflowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tanujflow-tanujflowUITests.release.xcconfig"; path = "Target Support Files/Pods-tanujflow-tanujflowUITests/Pods-tanujflow-tanujflowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C6460106934BED4E3FE14D2 /* Pods-tanujflow-NotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tanujflow-NotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-tanujflow-NotificationServiceExtension/Pods-tanujflow-NotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		7B2933C30483AAAC825E85C9 /* Pods_tanujflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tanujflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A66D0B369A19DBA94449F4 /* Pods-tanujflow-tanujflowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tanujflow-tanujflowUITests.debug.xcconfig"; path = "Target Support Files/Pods-tanujflow-tanujflowUITests/Pods-tanujflow-tanujflowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		869EFAF8FC7955FD79903E5F /* Pods-tanujflow-NotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tanujflow-NotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-tanujflow-NotificationServiceExtension/Pods-tanujflow-NotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		951F6C37E58558830FA202CB /* Pods_InternsNotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternsNotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ECB17516FEE333407B45CC /* Pods-InternsNotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternsNotificationService.debug.xcconfig"; path = "Target Support Files/Pods-InternsNotificationService/Pods-InternsNotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		B0E899CD2A269CE7BAE6CA25 /* Pods_tanujflow_tanujflowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tanujflow_tanujflowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2587E6778F02BA27192D1E /* Pods-tanujflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tanujflow.release.xcconfig"; path = "Target Support Files/Pods-tanujflow/Pods-tanujflow.release.xcconfig"; sourceTree = "<group>"; };
+		DE2791DCB5FCC896345A9968 /* Pods-tanujflowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tanujflowTests.release.xcconfig"; path = "Target Support Files/Pods-tanujflowTests/Pods-tanujflowTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA8AEFD8BFADCFAC9DCFCA3C /* Pods-tanujflow-NotificationContentExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tanujflow-NotificationContentExtension.release.xcconfig"; path = "Target Support Files/Pods-tanujflow-NotificationContentExtension/Pods-tanujflow-NotificationContentExtension.release.xcconfig"; sourceTree = "<group>"; };
+		EB9DC74D139FF63BDF121E2C /* Pods-InternsNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternsNotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-InternsNotificationContent/Pods-InternsNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D1A6DC02BFB877000791F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C504CA97497F98FF2EEAF /* Pods_tanujflow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A6DD62BFB877600791F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5496A6BD9A00AC5EB58FE1 /* Pods_tanujflowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A6DE02BFB877600791F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0530CCAA455D9EF9F86F0CAD /* Pods_tanujflow_tanujflowUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7882942C0F2593007281C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1C740456AB87F995353F52 /* Pods_InternsNotificationService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7882A32C0F25D0007281C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7882A82C0F25D0007281C3 /* UserNotificationsUI.framework in Frameworks */,
+				2D7882A72C0F25D0007281C3 /* UserNotifications.framework in Frameworks */,
+				70447C0A4C6CD30A3D49FC3A /* Pods_InternsNotificationContent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D1A6DBA2BFB877000791F3A = {
+			isa = PBXGroup;
+			children = (
+				2D1A6DC52BFB877000791F3A /* tanujflow */,
+				2D1A6DDC2BFB877600791F3A /* tanujflowTests */,
+				2D1A6DE62BFB877600791F3A /* tanujflowUITests */,
+				2D7882982C0F2593007281C3 /* InternsNotificationService */,
+				2D7882A92C0F25D0007281C3 /* InternsNotificationContent */,
+				2D1A6DC42BFB877000791F3A /* Products */,
+				5AFA34DE0C3EC9FA8FA2949B /* Pods */,
+				FAC16B53A1DA0D145AFE7E3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D1A6DC42BFB877000791F3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1A6DC32BFB877000791F3A /* tanujflow.app */,
+				2D1A6DD92BFB877600791F3A /* tanujflowTests.xctest */,
+				2D1A6DE32BFB877600791F3A /* tanujflowUITests.xctest */,
+				2D7882972C0F2593007281C3 /* InternsNotificationService.appex */,
+				2D7882A62C0F25D0007281C3 /* InternsNotificationContent.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D1A6DC52BFB877000791F3A /* tanujflow */ = {
+			isa = PBXGroup;
+			children = (
+				2D7653762C06F84400B52538 /* tanujflow.entitlements */,
+				2D1A6DC62BFB877000791F3A /* AppDelegate.swift */,
+				2D1A6DC82BFB877000791F3A /* SceneDelegate.swift */,
+				2D1A6DCA2BFB877000791F3A /* ViewController.swift */,
+				2D7197872BFDE94C00A110E6 /* CartPageViewController.swift */,
+				2D7197852BFDC7DF00A110E6 /* ViewController2.swift */,
+				2D1A6DCC2BFB877000791F3A /* Main.storyboard */,
+				2D1A6DCF2BFB877300791F3A /* Assets.xcassets */,
+				2D1A6DD12BFB877300791F3A /* LaunchScreen.storyboard */,
+				2D1A6DD42BFB877300791F3A /* Info.plist */,
+				2D1A6DF62BFC5CDE00791F3A /* DetailPageViewController.swift */,
+				2D7197832BFC80DA00A110E6 /* PaymentSuccessfulViewController.swift */,
+			);
+			path = tanujflow;
+			sourceTree = "<group>";
+		};
+		2D1A6DDC2BFB877600791F3A /* tanujflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D1A6DDD2BFB877600791F3A /* tanujflowTests.swift */,
+			);
+			path = tanujflowTests;
+			sourceTree = "<group>";
+		};
+		2D1A6DE62BFB877600791F3A /* tanujflowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D1A6DE72BFB877600791F3A /* tanujflowUITests.swift */,
+				2D1A6DE92BFB877600791F3A /* tanujflowUITestsLaunchTests.swift */,
+			);
+			path = tanujflowUITests;
+			sourceTree = "<group>";
+		};
+		2D7882982C0F2593007281C3 /* InternsNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				2D7882B62C0F2610007281C3 /* InternsNotificationService.entitlements */,
+				2D7882992C0F2593007281C3 /* NotificationService.swift */,
+				2D78829B2C0F2593007281C3 /* Info.plist */,
+			);
+			path = InternsNotificationService;
+			sourceTree = "<group>";
+		};
+		2D7882A92C0F25D0007281C3 /* InternsNotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				2D7882B72C0F265F007281C3 /* InternsNotificationContent.entitlements */,
+				2D7882AA2C0F25D0007281C3 /* NotificationViewController.swift */,
+				2D7882AC2C0F25D0007281C3 /* MainInterface.storyboard */,
+				2D7882AF2C0F25D0007281C3 /* Info.plist */,
+			);
+			path = InternsNotificationContent;
+			sourceTree = "<group>";
+		};
+		5AFA34DE0C3EC9FA8FA2949B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C8592B2617940DE1B58124D /* Pods-tanujflow.debug.xcconfig */,
+				BA2587E6778F02BA27192D1E /* Pods-tanujflow.release.xcconfig */,
+				81A66D0B369A19DBA94449F4 /* Pods-tanujflow-tanujflowUITests.debug.xcconfig */,
+				6B55F5CA4FEAAB224247EAC1 /* Pods-tanujflow-tanujflowUITests.release.xcconfig */,
+				0E4717518B73021C4638C8E7 /* Pods-tanujflowTests.debug.xcconfig */,
+				DE2791DCB5FCC896345A9968 /* Pods-tanujflowTests.release.xcconfig */,
+				59EB303CD876A904767E06AC /* Pods-tanujflow-NotificationContentExtension.debug.xcconfig */,
+				EA8AEFD8BFADCFAC9DCFCA3C /* Pods-tanujflow-NotificationContentExtension.release.xcconfig */,
+				869EFAF8FC7955FD79903E5F /* Pods-tanujflow-NotificationServiceExtension.debug.xcconfig */,
+				6C6460106934BED4E3FE14D2 /* Pods-tanujflow-NotificationServiceExtension.release.xcconfig */,
+				EB9DC74D139FF63BDF121E2C /* Pods-InternsNotificationContent.debug.xcconfig */,
+				0573952DA989D3863875B56C /* Pods-InternsNotificationContent.release.xcconfig */,
+				96ECB17516FEE333407B45CC /* Pods-InternsNotificationService.debug.xcconfig */,
+				634688DF5AF8BCD5D9D5B8D8 /* Pods-InternsNotificationService.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAC16B53A1DA0D145AFE7E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B2933C30483AAAC825E85C9 /* Pods_tanujflow.framework */,
+				B0E899CD2A269CE7BAE6CA25 /* Pods_tanujflow_tanujflowUITests.framework */,
+				47FE15AF00E816390903E8A8 /* Pods_tanujflowTests.framework */,
+				2D41519B2C05D9900047A402 /* UserNotifications.framework */,
+				2D41519D2C05D9900047A402 /* UserNotificationsUI.framework */,
+				5CA6F9AE3D063A78ACABC5B5 /* Pods_tanujflow_NotificationContentExtension.framework */,
+				1FE1B6A364EE12FA6BE1A4D4 /* Pods_tanujflow_NotificationServiceExtension.framework */,
+				576ADD1BBA6652B2E0C4B9B4 /* Pods_InternsNotificationContent.framework */,
+				951F6C37E58558830FA202CB /* Pods_InternsNotificationService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D1A6DC22BFB877000791F3A /* tanujflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1A6DED2BFB877600791F3A /* Build configuration list for PBXNativeTarget "tanujflow" */;
+			buildPhases = (
+				B0102143F16C63180962B0D6 /* [CP] Check Pods Manifest.lock */,
+				2D1A6DBF2BFB877000791F3A /* Sources */,
+				2D1A6DC02BFB877000791F3A /* Frameworks */,
+				2D1A6DC12BFB877000791F3A /* Resources */,
+				6299237200427AA7C35F210A /* [CP] Embed Pods Frameworks */,
+				2D4151922C05D9620047A402 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D78829D2C0F2593007281C3 /* PBXTargetDependency */,
+				2D7882B12C0F25D0007281C3 /* PBXTargetDependency */,
+			);
+			name = tanujflow;
+			productName = tanujflow;
+			productReference = 2D1A6DC32BFB877000791F3A /* tanujflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D1A6DD82BFB877600791F3A /* tanujflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1A6DF02BFB877600791F3A /* Build configuration list for PBXNativeTarget "tanujflowTests" */;
+			buildPhases = (
+				32DAA37266A5AA5B97143677 /* [CP] Check Pods Manifest.lock */,
+				2D1A6DD52BFB877600791F3A /* Sources */,
+				2D1A6DD62BFB877600791F3A /* Frameworks */,
+				2D1A6DD72BFB877600791F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1A6DDB2BFB877600791F3A /* PBXTargetDependency */,
+			);
+			name = tanujflowTests;
+			productName = tanujflowTests;
+			productReference = 2D1A6DD92BFB877600791F3A /* tanujflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D1A6DE22BFB877600791F3A /* tanujflowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1A6DF32BFB877600791F3A /* Build configuration list for PBXNativeTarget "tanujflowUITests" */;
+			buildPhases = (
+				B71D0E90080785C7C2B2DCFA /* [CP] Check Pods Manifest.lock */,
+				2D1A6DDF2BFB877600791F3A /* Sources */,
+				2D1A6DE02BFB877600791F3A /* Frameworks */,
+				2D1A6DE12BFB877600791F3A /* Resources */,
+				13D13342C3864EC9F40EC737 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1A6DE52BFB877600791F3A /* PBXTargetDependency */,
+			);
+			name = tanujflowUITests;
+			productName = tanujflowUITests;
+			productReference = 2D1A6DE32BFB877600791F3A /* tanujflowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2D7882962C0F2593007281C3 /* InternsNotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D78829F2C0F2593007281C3 /* Build configuration list for PBXNativeTarget "InternsNotificationService" */;
+			buildPhases = (
+				009D169B49F338A872AA75F7 /* [CP] Check Pods Manifest.lock */,
+				2D7882932C0F2593007281C3 /* Sources */,
+				2D7882942C0F2593007281C3 /* Frameworks */,
+				2D7882952C0F2593007281C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternsNotificationService;
+			productName = InternsNotificationService;
+			productReference = 2D7882972C0F2593007281C3 /* InternsNotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2D7882A52C0F25D0007281C3 /* InternsNotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D7882B32C0F25D0007281C3 /* Build configuration list for PBXNativeTarget "InternsNotificationContent" */;
+			buildPhases = (
+				68E0C91E16A62F20E46D6AF8 /* [CP] Check Pods Manifest.lock */,
+				2D7882A22C0F25D0007281C3 /* Sources */,
+				2D7882A32C0F25D0007281C3 /* Frameworks */,
+				2D7882A42C0F25D0007281C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternsNotificationContent;
+			productName = InternsNotificationContent;
+			productReference = 2D7882A62C0F25D0007281C3 /* InternsNotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D1A6DBB2BFB877000791F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2D1A6DC22BFB877000791F3A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2D1A6DD82BFB877600791F3A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2D1A6DC22BFB877000791F3A;
+					};
+					2D1A6DE22BFB877600791F3A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2D1A6DC22BFB877000791F3A;
+					};
+					2D7882962C0F2593007281C3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2D7882A52C0F25D0007281C3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 2D1A6DBE2BFB877000791F3A /* Build configuration list for PBXProject "tanujflow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D1A6DBA2BFB877000791F3A;
+			productRefGroup = 2D1A6DC42BFB877000791F3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D1A6DC22BFB877000791F3A /* tanujflow */,
+				2D1A6DD82BFB877600791F3A /* tanujflowTests */,
+				2D1A6DE22BFB877600791F3A /* tanujflowUITests */,
+				2D7882962C0F2593007281C3 /* InternsNotificationService */,
+				2D7882A52C0F25D0007281C3 /* InternsNotificationContent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1A6DC12BFB877000791F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1A6DD02BFB877300791F3A /* Assets.xcassets in Resources */,
+				2D1A6DD32BFB877300791F3A /* Base in Resources */,
+				2D1A6DCE2BFB877000791F3A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A6DD72BFB877600791F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A6DE12BFB877600791F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7882952C0F2593007281C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7882A42C0F25D0007281C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7882AE2C0F25D0007281C3 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		009D169B49F338A872AA75F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InternsNotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13D13342C3864EC9F40EC737 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tanujflow-tanujflowUITests/Pods-tanujflow-tanujflowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tanujflow-tanujflowUITests/Pods-tanujflow-tanujflowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tanujflow-tanujflowUITests/Pods-tanujflow-tanujflowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32DAA37266A5AA5B97143677 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tanujflowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6299237200427AA7C35F210A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tanujflow/Pods-tanujflow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tanujflow/Pods-tanujflow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tanujflow/Pods-tanujflow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E0C91E16A62F20E46D6AF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InternsNotificationContent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0102143F16C63180962B0D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tanujflow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71D0E90080785C7C2B2DCFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tanujflow-tanujflowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D1A6DBF2BFB877000791F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1A6DF72BFC5CDE00791F3A /* DetailPageViewController.swift in Sources */,
+				2D1A6DCB2BFB877000791F3A /* ViewController.swift in Sources */,
+				2D7197882BFDE94C00A110E6 /* CartPageViewController.swift in Sources */,
+				2D1A6DC72BFB877000791F3A /* AppDelegate.swift in Sources */,
+				2D1A6DC92BFB877000791F3A /* SceneDelegate.swift in Sources */,
+				2D7197842BFC80DA00A110E6 /* PaymentSuccessfulViewController.swift in Sources */,
+				2D7197862BFDC7DF00A110E6 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A6DD52BFB877600791F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1A6DDE2BFB877600791F3A /* tanujflowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1A6DDF2BFB877600791F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1A6DE82BFB877600791F3A /* tanujflowUITests.swift in Sources */,
+				2D1A6DEA2BFB877600791F3A /* tanujflowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7882932C0F2593007281C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D78829A2C0F2593007281C3 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7882A22C0F25D0007281C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7882AB2C0F25D0007281C3 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D1A6DDB2BFB877600791F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D1A6DC22BFB877000791F3A /* tanujflow */;
+			targetProxy = 2D1A6DDA2BFB877600791F3A /* PBXContainerItemProxy */;
+		};
+		2D1A6DE52BFB877600791F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D1A6DC22BFB877000791F3A /* tanujflow */;
+			targetProxy = 2D1A6DE42BFB877600791F3A /* PBXContainerItemProxy */;
+		};
+		2D78829D2C0F2593007281C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D7882962C0F2593007281C3 /* InternsNotificationService */;
+			targetProxy = 2D78829C2C0F2593007281C3 /* PBXContainerItemProxy */;
+		};
+		2D7882B12C0F25D0007281C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D7882A52C0F25D0007281C3 /* InternsNotificationContent */;
+			targetProxy = 2D7882B02C0F25D0007281C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D1A6DCC2BFB877000791F3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1A6DCD2BFB877000791F3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D1A6DD12BFB877300791F3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1A6DD22BFB877300791F3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2D7882AC2C0F25D0007281C3 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D7882AD2C0F25D0007281C3 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D1A6DEB2BFB877600791F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D1A6DEC2BFB877600791F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D1A6DEE2BFB877600791F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8592B2617940DE1B58124D /* Pods-tanujflow.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tanujflow/tanujflow.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tanujflow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Implementation Interns";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D1A6DEF2BFB877600791F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2587E6778F02BA27192D1E /* Pods-tanujflow.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tanujflow/tanujflow.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tanujflow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Implementation Interns";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D1A6DF12BFB877600791F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4717518B73021C4638C8E7 /* Pods-tanujflowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moengage.iosmoengage.interns.IM-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tanujflow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tanujflow";
+			};
+			name = Debug;
+		};
+		2D1A6DF22BFB877600791F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2791DCB5FCC896345A9968 /* Pods-tanujflowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moengage.iosmoengage.interns.IM-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tanujflow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tanujflow";
+			};
+			name = Release;
+		};
+		2D1A6DF42BFB877600791F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A66D0B369A19DBA94449F4 /* Pods-tanujflow-tanujflowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moengage.iosmoengage.interns.IM-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tanujflow;
+			};
+			name = Debug;
+		};
+		2D1A6DF52BFB877600791F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B55F5CA4FEAAB224247EAC1 /* Pods-tanujflow-tanujflowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanuj.tanujflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tanujflow;
+			};
+			name = Release;
+		};
+		2D7882A02C0F2593007281C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96ECB17516FEE333407B45CC /* Pods-InternsNotificationService.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = InternsNotificationService/InternsNotificationService.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InternsNotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InternsNotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM.InternsNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IM Notification Service";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D7882A12C0F2593007281C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634688DF5AF8BCD5D9D5B8D8 /* Pods-InternsNotificationService.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = InternsNotificationService/InternsNotificationService.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InternsNotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InternsNotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM.InternsNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IM Notification Service";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D7882B42C0F25D0007281C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9DC74D139FF63BDF121E2C /* Pods-InternsNotificationContent.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = InternsNotificationContent/InternsNotificationContent.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InternsNotificationContent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InternsNotificationContent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM.InternsNotificationContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IM Notification Content Extension";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D7882B52C0F25D0007281C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0573952DA989D3863875B56C /* Pods-InternsNotificationContent.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = InternsNotificationContent/InternsNotificationContent.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BPWYRAF5X7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InternsNotificationContent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = InternsNotificationContent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moengage.iosmoengage.interns.IM.InternsNotificationContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IM Notification Content Extension";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D1A6DBE2BFB877000791F3A /* Build configuration list for PBXProject "tanujflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1A6DEB2BFB877600791F3A /* Debug */,
+				2D1A6DEC2BFB877600791F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1A6DED2BFB877600791F3A /* Build configuration list for PBXNativeTarget "tanujflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1A6DEE2BFB877600791F3A /* Debug */,
+				2D1A6DEF2BFB877600791F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1A6DF02BFB877600791F3A /* Build configuration list for PBXNativeTarget "tanujflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1A6DF12BFB877600791F3A /* Debug */,
+				2D1A6DF22BFB877600791F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1A6DF32BFB877600791F3A /* Build configuration list for PBXNativeTarget "tanujflowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1A6DF42BFB877600791F3A /* Debug */,
+				2D1A6DF52BFB877600791F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D78829F2C0F2593007281C3 /* Build configuration list for PBXNativeTarget "InternsNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7882A02C0F2593007281C3 /* Debug */,
+				2D7882A12C0F2593007281C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D7882B32C0F25D0007281C3 /* Build configuration list for PBXNativeTarget "InternsNotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7882B42C0F25D0007281C3 /* Debug */,
+				2D7882B52C0F25D0007281C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D1A6DBB2BFB877000791F3A /* Project object */;
+}
